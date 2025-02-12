@@ -1,0 +1,28 @@
+fastapi==0.111.0  # ✅ 최신 FastAPI 버전 유지
+starlette==0.37.2  # ✅ FastAPI와 호환되는 최신 Starlette 버전
+pydantic==2.6.4  # ✅ 안정적인 Pydantic 2.x 버전
+pydantic_core==2.16.3  # ✅ Pydantic과 호환되는 Pydantic Core 버전
+
+# 기존 패키지는 유지
+annotated-types==0.7.0
+anyio==4.8.0
+asyncio==3.4.3
+click==8.1.8
+h11==0.14.0
+idna==3.10
+joblib==1.4.2
+pandas==2.2.3
+pickle-mixin==1.0.2
+python-dateutil==2.9.0.post0
+pytz==2024.2
+scikit-learn==1.6.1
+
+setuptools==75.1.0
+shapely==2.0.6
+six==1.17.0
+sniffio==1.3.1
+threadpoolctl==3.5.0
+typing_extensions==4.12.2
+tzdata==2025.1
+uvicorn==0.34.0
+wheel==0.44.0
