@@ -18,10 +18,10 @@ from concurrent.futures import ThreadPoolExecutor
 # FastAPI 앱 초기화
 app = FastAPI(
     version="1.0.0",
-    root_path="/ai"  # ✅ 모든 API의 기본 경로를 `/ai`로 설정
-    docs_url="/ai/docs",  # ✅ Swagger UI 경로 변경
+    root_path="/ai"  
+    docs_url="/ai/docs",  
     )
-# CSV 파일 로드 (VS Code의 src 디렉토리 기준)
+
 df_habitat = pd.read_csv('서식지.csv', encoding='utf-8')  # 서식지 정보
 df_corridor = pd.read_csv('생태통로.csv', encoding='utf-8')  # 생태통로 정보
 df_river = pd.read_csv('하천.csv', encoding='utf-8')  # 하천 정보
